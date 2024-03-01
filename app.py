@@ -1,4 +1,6 @@
 from flask import Flask
 from flask_restful import Api
 
-api = Api(__name__)
+app= Flask(__name__)
+api = Api(app)
+
